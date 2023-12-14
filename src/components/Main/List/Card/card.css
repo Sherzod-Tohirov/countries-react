@@ -1,0 +1,45 @@
+.hero__item {
+    width: 264px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+
+.item__img {
+    object-fit: cover;
+}
+
+.item__details {
+    padding: 24px;
+    padding-bottom: 46px;
+}
+
+.item__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px; 
+    color: #111517;
+}
+
+.item__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #111517;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.item__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item__bold {
+    font-weight: 600;
+}
