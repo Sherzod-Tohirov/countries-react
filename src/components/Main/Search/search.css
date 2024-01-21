@@ -20,6 +20,7 @@
     font-size: 14px;
     line-height: 20px; 
     color: #000;
+    background: url('../../../assets/image/search.svg') no-repeat left 32px center;
 }
 
 .search::placeholder {
@@ -31,14 +32,6 @@
 
 .hero__icon {
     position: absolute;
-}
-
-.icon-search {
-    top: 19px;
-    left: 32px;
-    width: 18px;
-    height: 18px;
-    background: url('../../../assets/image/search.svg') no-repeat center;
 }
 
 
@@ -55,6 +48,23 @@
     background: url("../../../assets/image/arrdn.svg") no-repeat center right calc(18px);
 }
 
+.dark-search {
+    background: #2b3844 url('../../../assets/image/whitesearch.svg') no-repeat left 32px center;
+    color: #fff; 
+}
+
+.dark-search::placeholder {
+    color: #fff;
+}
+
+.dark-filter {
+    background: #2b3844 url("../../../assets/image/whitearrdn.svg") no-repeat center right calc(18px);
+    color: #fff; 
+}
+
+.dark-filter::placeholder {
+    color: #fff;
+}
 
 @media only screen and (max-width: 500px) {
     .search {

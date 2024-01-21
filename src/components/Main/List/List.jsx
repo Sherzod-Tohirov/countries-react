@@ -2,7 +2,7 @@ import './list.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Card } from './Card';
-import {ScaleLoader} from 'react-spinners';
+import { Loader } from '../../Loader';
 export const List = ({filter, search}) => {
   const [data, setData] = useState([]);
   const [error, setError] = useState('');
@@ -44,10 +44,7 @@ export const List = ({filter, search}) => {
         data.length ? data.map(item => {
             return <Card key={item?.name?.common} data = {item} />       
         }) : !error ?
-        <div className='loader-wrapper'>
-          <ScaleLoader color='#ccc' width={10} height={60} />
-        <p className='loader-text'>Loading...</p>
-        </div>
+        <Loader />
         : <p className='error'>{error}</p>
       }
 

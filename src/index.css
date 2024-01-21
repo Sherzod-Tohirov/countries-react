@@ -17,3 +17,36 @@ body {
 
 }
 
+.loader-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20vh;
+}
+
+.dark-loader {
+  color: #fff;
+}
+
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: inline-flex;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.d-i-flex {
+  display: inline-flex;
+}
+
+.dark {
+  background-color: #202C36;
+}
